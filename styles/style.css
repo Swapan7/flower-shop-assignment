@@ -202,9 +202,38 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 25px;
+    gap: 20px;
 }
 .insta-img-item{
-    width: 250px;
-    height: 280px;
+    width: 270px;
+    height: 300px;
+}
+
+/* banner-section style  */
+
+.banner-section{
+    margin: 100px 200px 0;
+}
+.banner{
+    text-align: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    padding: 100px;
+}
+.banner-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.email-text{
+    width: 600px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
 }
