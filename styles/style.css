@@ -83,17 +83,17 @@ body{
 .shop-img-1{
     width: 230px;
     height: 380px;
-    padding: 120px 75px 0;
+    padding: 120px 70px 0;
 }
 .shop-img-2{
     width: 280px;
     height: 300px;
-    padding: 150px 45px 50px;
+    padding: 150px 40px 50px;
 }
 .shop-img-3{
     width: 230px;
     height: 400px;
-    padding: 100px 75px 0;
+    padding: 100px 70px 0;
 }
 .items-name{
     display: flex;
@@ -102,5 +102,109 @@ body{
     text-decoration-line: underline;
     color: #272727;
     font-size: 18px;
+    font-weight: 400;
+}
+
+/* support style  */
+
+.support{
+    margin: 0 200px 125px;
+}
+.support-items{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    padding: 85px 100px;
+}
+.service-text{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.service-img{
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    padding-top: 25px;
+}
+
+/* hot-deal style  */
+
+.hot-deal{
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 0;
+    margin-bottom: 100px;
+}
+.hot-deal-content{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    gap: 180px;
+}
+.deal-items{
+    text-align: center;
+}
+.deal-text{
+    color: #272727;
+    font-size: 36px;
     font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.d-text-color{
+    color: #E55473;
+}
+.deal-des{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.deal-btn{
+    padding: 20px 45px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.deal-banner-item{
+    width: 318px;
+    height: 420px;
+}
+
+/* instagram style  */
+
+.instagram{
+    text-align: center;
+    margin: 0 200px;
+}
+.insta-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.insta-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.insta-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+.insta-img-item{
+    width: 250px;
+    height: 280px;
 }
