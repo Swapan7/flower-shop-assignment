@@ -245,6 +245,53 @@ body{
     margin-bottom: 40px;
 }
 
+/* client review  */
+
+.client-review{
+    margin: 100px 200px 0;
+}
+.review-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.client-header-content{
+    text-align: center;
+}
+.header-text{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header-smile{
+    color: #E55473;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;  
+}
+.client-choise-img{
+    width: 300px;
+    height: 300px;
+}
+.review-text{
+    margin-top: 100px;
+}
+.client-review-des{
+    color: #272727;
+}
+.client-name{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+}
+
 /* footer-section style  */
 
 .footer-section{
