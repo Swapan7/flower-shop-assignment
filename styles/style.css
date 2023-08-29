@@ -21,7 +21,7 @@ body{
 }
 .header-content{
     align-items: center;
-    gap: 80px;
+    gap: 55px;
     display: flex;
     margin: 0 200px;
 }
@@ -42,6 +42,7 @@ body{
 
 .header-img{
     max-width: 50%; 
+    padding-top: 30px; 
 }
 
 /* Featured shop style  */
@@ -217,7 +218,8 @@ body{
 .banner{
     text-align: center;
     background-image: url(../images/Rectangle\ 9.png);
-    padding: 100px;
+    background-size: cover;
+    padding: 40px;
 }
 .banner-heading{
     color: #272727;
@@ -229,6 +231,7 @@ body{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 .email-text{
     width: 600px;
@@ -236,6 +239,10 @@ body{
     border: 0;
     border-radius: 8px;
     padding: 12px;
+    margin-right: 10px;
+}
+#b-btn{
+    margin-bottom: 40px;
 }
 
 /* footer-section style  */
